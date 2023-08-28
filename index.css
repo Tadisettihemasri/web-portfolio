@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Georgia', sans-serif!important;
+}
+
+.text-center-vertical {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make sure the parent container has a defined height */
+}
